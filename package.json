@@ -19,8 +19,6 @@
     "build": "babel-node ./node_modules/.bin/webpack",
     "prepublishOnly": "npm run build",
     "pretest": "npm run build",
-    "preinstall": "npm run build:addons",
-    "install": "npm run build",
     "test": "tape ./test/index.js | tap-spec"
   },
   "devDependencies": {
